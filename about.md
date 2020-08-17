@@ -10,11 +10,24 @@ title: About
 </p>
 -------------
 
-<div>
-  <h3>Profile</h3>
-  <ul>
-    <li>초보 개발 입문자</li>
-    <li>숙명여자대학교 ICT융합공학부 IT공학전공 재학 중(2019 ~ )</li>
-    <li>이과대학 통계학과 복수전공 (2020 ~ )</li>
-  </ul>
-</div>
+<h3>Profile</h3>
+<ul>
+  <li>초보 개발 입문자</li>
+  <li>2019.03 ~  숙명여자대학교 공과대학 IT공학전공 재학 중</li>
+  <li>2020.09 ~  이과대학 통계학과 복수전공</li>
+</ul>
+<br>
+
+<h3>Career</h3>
+<p>앞으로 채워나갈 예정 :)</p>
+<br>
+
+<h3>Site</h3>
+<ul>
+  <li><a href="https://github.com/1914386">GitHub</a></li>
+  <li><a href="https://blog.naver.com/sml_07113">네이버 블로그</a></li>
+</ul>
+<br>
+
+<h3>Contact</h3>
+<a href="mailto:sml07113@gmail.com">sml07113@gmail.com</a>
