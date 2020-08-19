@@ -25,7 +25,7 @@ title: Tags
       <a href="{{ root_url }}{{ post.url }}">
       <li>
         {{ post.title }}
-        <small class="post-date">{{ post.date | date_to_string }}</small>
+        <small class="tag-date">{{ post.date | date_to_string }}</small>
       </li>
       </a>
       {% endfor %}
