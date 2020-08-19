@@ -17,11 +17,12 @@ tags:
 + [Lanyon for Github Pages - Gemfile 생성법](https://www.akashhajari.com/blogs/Lanyon-for-Github-Pages)
 + ['bundle exec jekyll serve' 빌드 진행 중 에러가 발생한 경우](https://swifteyes.blogspot.com/2016/12/jekyll-github.html)
 
-### 커스터마이징
+### 커스터마이징 - 태그 적용 완료
 + [devYurim 님의 블로그 - 커스터마이징 전반](https://devyurim.github.io/DE/Github%20Blog)
 + [변경민의 LOWIL - 커스터마이징 전반](https://changemin.github.io/posts/)
 + [hoisharka's blog - 지킬에 카테고리와 태그 적용하기(1)](https://hoisharka.github.io/jekyll/2017/12/03/jekyll-category-001/)
 + [hoisharka's blog - 지킬에 카테고리와 태그 적용하기(2)](https://hoisharka.github.io/jekyll/2017/12/03/jekyll-category-002/)   
++ [Jekyll 블로그 태그 기능 붙이기](https://hyesun03.github.io/2016/12/05/jekyllTag) - 적용완료!
 
 ### 마크다운 문법
 + [마크다운 총정리 All in One](https://steemit.com/kr/@nand/markdown)
@@ -45,7 +46,7 @@ tags:
 7. `git rebase --continue`를 입력하고 'Successfully rebased and updated ...'이 뜬다면 성공
 8. `git log`을 다시 입력하여 정상적으로 수정되었는지 확인  
 
-### DISQUS에 가입하여 댓글 기능 추가하기
+### DISQUS에 가입하여 댓글 기능 추가하기 - 완료
 + [_includes\disqus.html 생성 + 기타 파일 수정](https://skyksit.tistory.com/entry/%EB%94%94%EC%8A%A4%EC%BB%A4%EC%8A%A4-disqus-%EB%A1%9C-%EA%B9%83%ED%97%88%EB%B8%8C%EC%97%90-%EB%8C%93%EA%B8%80-%EA%B8%B0%EB%8A%A5-%EB%8B%AC%EA%B8%B0-jekyll-github-pages)
 + [고급 설정 - 댓글창 꾸미기](https://jamesu.dev/posts/2020/01/03/adding-disqus-comment-service-to-jekyll/)
 + [lanyon 테마에서의 댓글 적용법 (실제로 참고는 하지 않음)](http://anandmanisankar.com/posts/set-up-blog-jekyll-github-pages-2/)  
