@@ -578,6 +578,12 @@ a.pagination-item:hover {
 .archive-item {
   margin-left: 5px;
 }
+.post-date {
+  display: inline-block;
+  font-size: 80%;
+  margin: 0;
+  padding: 0;
+}
 .post-tags {
   float: left;
 }
