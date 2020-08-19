@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Example content
-Tags: Github
+Tags: [Github]
 ---
 
 
