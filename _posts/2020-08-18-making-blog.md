@@ -2,7 +2,9 @@
 layout: post
 title: 블로그 개설 과정
 comments: true
-tags: [Github, Jekyll]
+tags:
+- Github
+- Jekyll
 ---
 <p class="message">
 블로그를 잘 활용하기 위해 테마와 커스터마이징 방법을 탐색했습니다.  많은 시행착오 끝에 <strong>Lanyon</strong> 테마를 선택하였으며, 다음의 사이트들을 참고하여 커스터마이징을 할 예정입니다.
