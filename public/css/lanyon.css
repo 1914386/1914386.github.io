@@ -580,7 +580,8 @@ a.pagination-item:hover {
 }
 .tag-date {
   display: inline-block;
-  font-size: 80%;
+  font-size: 70%;
+  color: #9a9a9a;
   margin: 0;
   padding: 0;
 }
