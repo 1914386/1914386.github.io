@@ -1,8 +1,8 @@
 # Setup
-title:               Ultra Happy
-tagline:             'Post Developer'
-description:         'Made by <a href="https://github.com/1914386" target="_blank">@1914386</a><br/>A journey of a thousand miles begines with a single step.'
-url:                 https://1914386.github.io
+title:               Ultra Happy # 블로그 제목
+tagline:             'Post Developer' # 소제목
+description:         'Made by <a href="https://github.com/1914386" target="_blank">@1914386</a><br/>A journey of a thousand miles begines with a single step.' # 블로그 설명
+url:                 https://1914386.github.io # 블로그 주소
 baseurl:             ''
 paginate:            5
 permalink:           pretty
@@ -20,3 +20,11 @@ plugins:
 # Custom vars
 version:             1.1.0
 google_analytics_id: #UA-XXXX-Y
+
+# Comments
+comments:
+  provider: "disqus"
+
+# Disqus
+disqus:
+  shortname: '1914386-github-io'
