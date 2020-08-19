@@ -22,7 +22,7 @@ title: Tags
     <a name="{{ tag_name | slugize }}"></a>
     {% for post in site.tags[tag_name] %}
     <article class="archive-item">
-      <h4><a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a></h4>
+      <h4><a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a><small class="post-date">{{ post.date | date_to_string }}</small></h4>
     </article>
     {% endfor %}
   </div>
