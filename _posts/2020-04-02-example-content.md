@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Example content
-Tags: 
-- Example
 ---
 
 
