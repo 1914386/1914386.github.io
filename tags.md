@@ -18,14 +18,14 @@ title: Tags
 {% for tag in site.tags %}
   <div class="archive-group">
     {% capture tag_name %}{{ tag | first }}{% endcapture %}
-    <h3 id="#{{ tag_name | slugize }}">{{ tag_name }}</h3>
+    <h2 id="#{{ tag_name | slugize }}">{{ tag_name }}</h2>
     <a name="{{ tag_name | slugize }}"></a>
     <ul class="archive-item">
       {% for post in site.tags[tag_name] %}
       <a href="{{ root_url }}{{ post.url }}">
       <li>
         {{ post.title }}
-        <small class="tag-date">{{ post.date | date_to_string }}</small>
+        <small class="tag-date">{{ post.date | date:"%F" }}</small>
       </li>
       </a>
       {% endfor %}
