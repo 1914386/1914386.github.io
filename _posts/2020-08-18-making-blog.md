@@ -2,7 +2,8 @@
 layout: post
 title: 블로그 개설 과정
 comments: true
-categories: Github Blog
+categories: 
+- Github Blog
 tags:
 - Github
 - Jekyll

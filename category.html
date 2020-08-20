@@ -17,10 +17,8 @@ type: page
         {% for post in posts %}
         {% if post.url %}
         <li>
-          <time>
-            {{ post.date | date:"%F" }} {{ post.date | date: "%a" }}.
-          </time>
           <a class="title" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
+          <small class="tag-date">{{ post.date | date:"%F" }}</small>
         </li>
         {% endif %}
         {% endfor %}
