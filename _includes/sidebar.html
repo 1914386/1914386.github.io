@@ -26,19 +26,19 @@
     {% endfor %}
   
     <a class="sidebar-nav-item" href="{{ site.author.url }}">GitHub</a>
-  </nav>
 
-  <div>
-    <div class="sidebar-nav-item">Category</div>
-    <nav>
-      {% for category in site.categories %}
-      <a href="{{ root_url }}/{{ site.category_dir }}#{{ category | first }}" class="sidebar-nav-item pl-3rem">
-        <span class="name">{{ category | first }}</span>
-        <span class="badge">{{ category | last | size }}</span>
-      </a>
-      {% endfor %}
-    </nav>
-  </div>
+    <a class="sidebar-nav-item">Category</a>
+      <div class="category">
+        {% for category in site.categories %}
+          <a href="{{ root_url }}/{{ site.category_dir }}#{{ category | first }}" class="sidebar-nav-item pl-3rem">
+            <span class="name">{{ category | first }}</span>
+            <span class="badge">{{ category | last | size }}</span>
+          </a>
+        {% endfor %}
+      </div>
+ 
+
+  </nav>
 
   <div class="sidebar-item">
     <p>
