@@ -19,12 +19,14 @@ tags:
 + [Lanyon for Github Pages - Gemfile 생성법](https://www.akashhajari.com/blogs/Lanyon-for-Github-Pages)
 + ['bundle exec jekyll serve' 빌드 진행 중 에러가 발생한 경우](https://swifteyes.blogspot.com/2016/12/jekyll-github.html)
 
-### 커스터마이징 - 태그 적용 완료
+### 커스터마이징 - 태그, 카테고리 적용 완료
 + [devYurim 님의 블로그 - 커스터마이징 전반](https://devyurim.github.io/DE/Github%20Blog)
 + [변경민의 LOWIL - 커스터마이징 전반](https://changemin.github.io/posts/)
-+ [hoisharka's blog - 지킬에 카테고리와 태그 적용하기(1)](https://hoisharka.github.io/jekyll/2017/12/03/jekyll-category-001/)
++ [hoisharka's blog - 지킬에 카테고리와 태그 적용하기(1)](https://hoisharka.github.io/jekyll/2017/12/03/jekyll-category-001/) - 적용완료!
 + [hoisharka's blog - 지킬에 카테고리와 태그 적용하기(2)](https://hoisharka.github.io/jekyll/2017/12/03/jekyll-category-002/)   
-+ [Jekyll 블로그 태그 기능 붙이기](https://hyesun03.github.io/2016/12/05/jekyllTag) - 적용완료!
++ [Jekyll 블로그 태그 기능 붙이기](https://hyesun03.github.io/2016/12/05/jekyllTag) - 적용완료!  
++ [coilly blog - 전체 화면에서 사이드바 고정](https://coilly.github.io/)  
++ [coilly님 블로그 GitHub](https://coilly.github.io/)
 
 ### 마크다운 문법
 + [마크다운 총정리 All in One](https://steemit.com/kr/@nand/markdown)
