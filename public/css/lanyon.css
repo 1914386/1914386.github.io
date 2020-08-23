@@ -608,7 +608,7 @@ a.pagination-item:hover {
 
 .category .name {
   float: left;
-  color: #D6C1D6;
+  color: rgba(255,255,255,.6);
 }
 
 .category .badge {
