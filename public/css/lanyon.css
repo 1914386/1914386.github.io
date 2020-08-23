@@ -559,21 +559,27 @@ a.pagination-item:hover {
 
 /* for tag cloud and archives */
 .tag-cloud {
-  list-style: none;
-  padding: 0;
-  text-align: justify;
-  font-size: 16px;
+  margin-top: 20px;
 }
-.tag-cloud li {
+.tag-list {
   display: inline-block;
-  margin: 0 12px 12px 0;
+  background: #F2EAF1;
+  border-radius: 4px;
+  padding: 0 .5rem;
+  margin-right: .5rem;
+}
+.tag-list:hover {
+  text-decoration: none;
+  background: #aa759f;
+  color: #ffffff !important;
+  transition: all .1s ease-in-out;
 }
 #archives {
-  padding: 5px;
+  padding-left: 5px;
 }
 .archive-group {
   margin: 5px;
-  border-top: 1px solid #ddd;
+  padding-bottom: 5px;
 }
 .archive-item {
   margin-left: 5px;

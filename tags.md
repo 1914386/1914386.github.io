@@ -4,32 +4,29 @@ permalink: /tags/
 title: Tags
 ---
 
-<ul class="tag-cloud">
+<div class="tag-cloud">
 {% for tag in site.tags %}
-  <span style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 70  }}%">
-    <a href="#{{ tag | first | slugize }}">
-      {{ tag | first }}
-    </a> &nbsp;&nbsp;
-  </span>
+  <a class="tag-list" href="#{{ tag | first | slugize }}">{{ tag | first }}</a>
 {% endfor %}
-</ul>
+</div>
+<hr/>
 
 <div id="archives">
 {% for tag in site.tags %}
   <div class="archive-group">
     {% capture tag_name %}{{ tag | first }}{% endcapture %}
-    <h2 id="#{{ tag_name | slugize }}">{{ tag_name }}</h2>
+    <h3 id="#{{ tag_name | slugize }}">{{ tag_name }}</h3>
     <a name="{{ tag_name | slugize }}"></a>
     <ul class="archive-item">
       {% for post in site.tags[tag_name] %}
-      <a href="{{ root_url }}{{ post.url }}">
       <li>
+      <a href="{{ root_url }}{{ post.url }}">
         {{ post.title }}
         <small class="tag-date">{{ post.date | date:"%F" }}</small>
-      </li>
       </a>
+      </li>
       {% endfor %}
     </ul>
-    {% endfor %}    
   </div>
+  {% endfor %}
 </div>
