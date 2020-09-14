@@ -5,7 +5,6 @@ comments: true
 categories: 
 - Github Blog
 tags:
-- Github
 - Jekyll
 ---
 <p class="message">
