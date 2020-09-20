@@ -1,3 +1,6 @@
-User-agent: *
-Allow: 
+User-agent: Googlebot
+User-agent: NaverBot
+Allow: /
+User-agent: BadBot
+Disallow: /
 Sitemap: http://1914386.github.io/sitemap.xml
