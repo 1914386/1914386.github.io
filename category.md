@@ -27,4 +27,39 @@ type: page
   {% endfor %}
 </div>
 
-  
+<!--
+<div class="common-header">
+  <div class="common-header-title">
+    <h1>Categories</h1>
+  </div>
+</div>
+
+<div class="categories">
+  <ul>
+    {% for category in site.categories %}
+      {% assign category_name = category[0] %}
+      {% assign category_url = category[0] | prepend: page.url %}
+      <li>
+        <a href="{{ category_url }}">
+          <i class="fas fa-folder fa-fw"></i>
+          <span>{{ category_name }}</span>
+          <span class="categories-post-count">{{ site.categories[category_name] | size }}</span>
+        </a>
+        <ul class="child">
+          {% for child in category[1].children %}
+            {% assign child_name = child[1].name %}
+            {% assign child_url = child[0] | prepend: '/' | prepend: category_url %}
+            <li>
+              <a href="{{ child_url }}">
+                <i class="fas fa-folder fa-fw"></i>
+                <span>{{ child_name }}</span>
+                <span class="categories-post-count">{{ site.categories[child_name] | size }}</span>
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+-->

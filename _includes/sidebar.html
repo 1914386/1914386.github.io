@@ -4,8 +4,19 @@
 
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
+  <div class="sidebar-logo">
+    <img src="https://static.dribbble.com/users/1112068/screenshots/4371969/vacsncy_portraits-28.png">
+  </div>
+
   <div class="sidebar-item">
     <p>{{ site.description }}</p>
+  </div>
+
+  <div class="social-media">
+    <a href="mailto:{{ site.author.email }}" title="email"><i class="fas fa-envelope fa-2x"></i></a> <span>&nbsp;</span>
+    <a href="{{ site.author.url }}" title="GitHub Profile" target="_blank"><i class="fab fa-github fa-2x"></i></a> <span>&nbsp;</span>
+    <a href="https://blog.naver.com/sml_07113" title="Naver Blog" target="_blank"><i class="fas fa-blog fa-2x"></i></a> <span>&nbsp;</span>
+    <i class="fas fa-rss fa-2x"></i>
   </div>
 
   <nav class="sidebar-nav">
@@ -35,16 +46,11 @@
       {% endfor %}
     </div>
 
-    <a class="sidebar-nav-item" href="{{ site.author.url }}">GitHub</a>
-
-
- 
-
   </nav>
 
   <div class="sidebar-item">
     <p>
-      &copy; {{ site.time | date: '%Y' }}. All rights reserved.
+      &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}.
     </p>
   </div>
 </div>
