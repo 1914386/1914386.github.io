@@ -5,16 +5,17 @@ title: Tags
 ---
 
 <div class="tag-cloud">
-{% for tag in site.tags %}
-  <a class="tag-list" href="#{{ tag | first | slugize }}">{{ tag | first }}</a>
+{% assign tags = site.tags | sort %}
+{% for tag in tags %}
+  <a class="tag-list" href="#{{ tag[0] | slugize }}">{{ tag[0] }}</a>
 {% endfor %}
 </div>
 <hr/>
 
 <div id="archives">
-{% for tag in site.tags %}
+{% for tag in tags %}
   <div class="archive-group">
-    {% capture tag_name %}{{ tag | first }}{% endcapture %}
+    {% capture tag_name %}{{ tag[0] }}{% endcapture %}
     <h3 id="#{{ tag_name | slugize }}">{{ tag_name }}</h3>
     <a name="{{ tag_name | slugize }}"></a>
     <ul class="archive-item">
