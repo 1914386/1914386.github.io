@@ -2,8 +2,6 @@
 layout: default
 title: Categories
 permalink: /category/
-icon: th-list
-type: page
 ---
 
 <h1>{{ page.title }}</h1>
@@ -46,8 +44,8 @@ type: page
           <span class="categories-post-count">{{ site.categories[category_name] | size }}</span>
         </a>
         <ul class="child">
-          {% for child in category[1].children %}
-            {% assign child_name = child[1].name %}
+          {% for child in category[0].children %}
+            {% assign child_name = child[0] %}
             {% assign child_url = child[0] | prepend: '/' | prepend: category_url %}
             <li>
               <a href="{{ child_url }}">

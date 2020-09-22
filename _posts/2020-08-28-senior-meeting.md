@@ -2,10 +2,9 @@
 layout: post
 title: (후기) 우리 학교 선배님들의 취업 간담회를 듣고
 comments: true
-categories: Think
+categories: [archive]
 tags:
-- Career
-- 취업
+- 생각
 ---
 ![image](/public/images/think_senior.png)  
 

@@ -602,6 +602,7 @@ a.pagination-item:hover {
   padding: 5px 0 0 0;
 }
 
+/* category in sidebar */
 .category .sidebar-nav-item {
   padding-left: 3rem;
   color: #999;
@@ -631,6 +632,7 @@ a.pagination-item:hover {
   border-radius: 50%;
 }
 
+/* profile and social media in sidebar */
 .sidebar-logo {
   padding: 1.5rem 0 0 0;
 }
@@ -644,3 +646,5 @@ a.pagination-item:hover {
 .social-media {
   padding: 0 1rem 1rem 1.5rem;
 }
+
+/* category page */

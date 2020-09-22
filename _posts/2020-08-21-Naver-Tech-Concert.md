@@ -1,10 +1,10 @@
 ---
 layout: post
-title: (후기) 2020 Naver Tech Concert
+title: (후기) 2020 Naver Tech Concert Online
 comments: true
-categories: Think
+categories: [archive]
 tags:
-- Naver
+- 경험
 ---
 ![image](/public/images/naver_tech_concert.png)  
 
