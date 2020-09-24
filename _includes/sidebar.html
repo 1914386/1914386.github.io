@@ -36,7 +36,7 @@
       {% endif %}
     {% endfor %}
 
-    <a href="{{ site.url }}/category/" class="sidebar-nav-item">Category</a>
+    <a href="{{ site.url }}/categories/" class="sidebar-nav-item">Category</a>
     <div class="category">
       {% for category in site.categories %}
         <a href="{{ root_url }}/{{ site.category_dir }}#{{ category | first }}" class="sidebar-nav-item pl-3rem">
@@ -45,6 +45,7 @@
         </a>
       {% endfor %}
     </div>
+
   </nav>
 
   <div class="sidebar-item">

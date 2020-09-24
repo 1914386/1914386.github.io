@@ -30,5 +30,5 @@ disqus:
   shortname: '1914386-github-io'
 
 # Category & Tag
-category_dir: category/
+category_dir: categories/
 tag_dir: tags/

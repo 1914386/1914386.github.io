@@ -1,10 +1,10 @@
 ---
 layout: post
-title: (후기) 2020 Naver Tech Concert Online
+title: "[경험] 2020 Naver Tech Concert Online"
 comments: true
-categories: [archive]
+categories: [Archive, ㄴexperience]
 tags:
-- 경험
+- 네이버
 ---
 ![image](/public/images/naver_tech_concert.png)  
 
