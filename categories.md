@@ -15,7 +15,7 @@ permalink: /categories/
         {% for post in posts %}
         {% if post.url %}
         <li>
-          <a class="categories-title" href="{{ post.url | prepend: site.url }}">{{ post.title }}
+          <a class="categories-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
           <small class="tag-date">{{ post.date | date:"%F" }}</small>
           </a>
         </li>

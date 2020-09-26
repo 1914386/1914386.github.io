@@ -17,6 +17,9 @@ author:
 plugins:
   - jekyll-paginate
 
+# Permalinks
+permalink: /:year/:month/:day/:title/
+
 # Custom vars
 version:             1.1.0
 google_analytics_id: #UA-XXXX-Y
