@@ -567,7 +567,7 @@ a.pagination-item:hover {
   background: #F2EAF1;
   border-radius: 4px;
   padding: 0 .5rem;
-  margin-right: .5rem;
+  margin: 0 .5rem .5rem 0;
 }
 .tag-list:hover {
   text-decoration: none;
@@ -647,4 +647,11 @@ a.pagination-item:hover {
   padding: 0 1rem 1rem 1.5rem;
 }
 
-/* category page */
+/* post_categories */
+.post-categories {
+  margin: .5rem 0 .5rem 0;
+}
+
+.category-list {
+  font-weight: bold;
+}
